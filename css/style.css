@@ -27,6 +27,7 @@
     color: black;
     margin: auto;
     width: 80px;
+    display: inline-block;
 }
 
 
@@ -42,7 +43,7 @@ ul li{
 
 /* HEADER */
 .header-top{
-    background-color: #404EED;
+    background-color: #3161E0;
     height: 100px;
 }
 
@@ -89,14 +90,25 @@ ul li{
 }
 
 .header-bottom{
-    background-color: #03018B;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     height: 500px;
 }
 
 #header-bottom{
-    background-color: #EE82EE;
-    height: 400px;
-    width: 700px;
+    text-align: center;
+    color: white;
+}
+
+#header-bottom h1{
+    margin-bottom: 50px;
+    font-size: 4em;
+}
+
+#header-bottom p{
+    width: 800px;
+    font-size: 2em;
+    height: 180px;
 }
 
 .flex-bottom{
