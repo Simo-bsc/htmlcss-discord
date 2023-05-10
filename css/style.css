@@ -276,11 +276,12 @@ ul li{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px; 
+    display: flex;
+    flex-direction: column;
 }
 
 .link-footer li{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .link-footer a{
@@ -295,13 +296,16 @@ ul li{
 }
 
 .footer-box1{
-    background-color: #F08080;
     height: 400px;
-    width: 40%;
+    width: 350px;
+}
+
+.footer-box1 h3{
+    text-align: center;
+    font-size: 3em;
 }
 
 .footer-box2{
-    background-color: #21B2AA;
     height: 400px;
     width: 60%;    
 }
